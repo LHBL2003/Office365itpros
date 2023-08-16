@@ -32,9 +32,11 @@
 # https://github.com/12Knocksinna/Office365itpros/blob/master/TeamsGroupsActivityReport.ps1
 #
 =======
-# Needs the following Graph application permissions:
-# Group.Read.All, Reports.Read.All, User.Read.All, GroupMember.Read.All, Sites.Read.All, Organization.Read.All (or Directory.Read.All)
-#
+# Needs the following Graph application permissions
+# --------------------------------------------------
+# Attention: In App-Permissions you have to select the right one for Microsoft Graph under "Application permissions" and not under "Delegated permissions". The permissions listed below are available for both types!
+# Permissions: Group.Read.All, Reports.Read.All, User.Read.All, GroupMember.Read.All, Sites.Read.All, Organization.Read.All (or Directory.Read.All)
+# 
 #+-------------------------- Functions etc. -------------------------
 
 function Get-GraphData {
